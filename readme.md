@@ -12,12 +12,17 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo Status
 `$ git status` - Check the status of your current repository and see which files have changed.
 
-`$ git diff` - __Fill Me Out__
+`$ git diff` - Show changes between commits, commit and working tree, etc.
 
 #### Repo History
-`$ git log` - __Fill Me Out__
+`$ git log` - Show commit logs.
 
-`$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
+`$ git log --oneline --decorate --color --graph --all` -
+--oneline: compacts log info to one line
+--decorate: prints out ref names of any commits that are shown
+--color: shows color difference
+--graph: draws a text-based graphical representation of the commit history on the left hand side of the output
+--all: pretend as if all the refs in refs/ are listed on the command line as <commit>
 
 `$ git log -p [filename]` __Fill Me Out__
 
