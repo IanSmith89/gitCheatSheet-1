@@ -19,12 +19,12 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
 
-`$ git log -p [filename]` __Fill Me Out__
+`$ git log -p [filename]` -  Show commit logs
 
 #### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+`$ git add <filename>` - Add file contents to the index/stage
 
-`$ git add -A` - __Fill Me Out__
+`$ git add -A` - automatically stage all tracked, modified files before the commit
 
 #### Commit changes in staged files
 `$ git commit -m "<commit message>"` - __Fill Me Out__
