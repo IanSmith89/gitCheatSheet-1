@@ -34,8 +34,8 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git branch` - __Fill Me Out__
 
-`$ git checkout <branch name>` - __Fill Me Out__
+`$ git checkout <branch name>` - to create a new branch
 
 #### Merging
 
-`$ git merge <branch name>` - __Fill Me Out__
+`$ git merge <branch name>` - put branch changes together in master
